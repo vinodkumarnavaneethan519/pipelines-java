@@ -10,10 +10,10 @@ strategy:
   matrix:
     linux:
       imageName: "ubuntu-latest"
-      jdkversion: "1.10"
+      jdkversion: "1.12"
     windows:
       imageName: "windows-latest"
-      jdkversion: "1.11"
+      jdkversion: "1.13"
   maxParallel: 1
 
 pool:
